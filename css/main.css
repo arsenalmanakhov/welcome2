@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Melted Monster';
+    src: url('Melted Monster.ttf')  format('truetype');
+}
+html, body {
+    height: 100%;
+    font-size: 1rem;
+}
+body {
+    font-family: "Melted Monster", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #BBBBBB;
+}
+
+.navbar {
+    --bs-navbar-hover-color: #BBBBBB;
+    --bs-navbar-disabled-color: #BBBBBB;
+    --bs-navbar-active-color: #BBBBBB;
+}
+
+.buy-token {
+    color: #4C9F2B;
+}
+
+.page-first {
+    background: #000000;
+    height: 100vh;
+    padding-top: 12%;
+}
+.page-first h2 {
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+.page-first .btn {
+    font-size: 1.5rem;
+}
+.page-first .img-col {
+    float: right;
+    /*border: 6px black solid;*/
+    border-radius: 2.5rem;
+}
+
+.main-text {
+    font-size: 1.75rem;
+}
+
+.page-second {
+    background: #000000;
+    height: 100vh;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.page-second2 {
+    background: #DDDDDD;
+    height: 100vh;
+    text-align: center;
+}
+.page-second2 .soon {
+    font-size: 7rem;
+    margin-top: 25%;
+}
+
+
+.page-second h2 {
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+}
+.page-second h3 {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.second-text {
+    font-size:2.5rem;
+    padding-top: 3%;
+    color: white;
+}
+
+.page-second .p-second {
+    padding-bottom: 4rem;
+}
+.page-second .feature .card-text-1 {
+    font-size: 1.25rem;
+}
+
+.page-three {
+    background: #FFFFFF;
+    height: 90vh;
+    text-align: center;
+}
+.page-three h2 {
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+}
+.page-three h3 {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+.page-three .p-second {
+    padding-bottom: 4rem;
+}
+.page-three .feature .card-text-1 {
+    font-size: 2.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.btn-navbar {
+    margin-top: -4%;
+    font-size: 1.25rem;
+}
+
+.btn-header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-token {
+    border: 6px black solid;
+    border-radius: 2.5rem;
+}
+
+.img-token2 {
+    border: 6px black solid;
+    border-radius: 2.5rem;
+    width: 30%;
+}
+
+.wow {
+    opacity: 0;
+    transition: all 0.2s 0.2s ease-out;
+}
+.wow2 {
+    opacity: 0;
+    transition: all 0.4s 0.4s ease-out;
+}
+.wow3 {
+    opacity: 0;
+    transition: all 0.6s 0.6s ease-out;
+}
+
+.animated {
+    opacity: 1;
+}
+
+.btn-second {
+    font-size: 1.5rem;
+}
+
+.img-token3 {
+    width: 65%;
+}
+
+@media (max-width: 992px) {
+    .page-first {
+        padding-top: 20%;
+        height: 100%;
+    }
+    .page-second,.page-three {
+        height: 100%;
+    }
+    .page-first .img-col {
+        float: left;
+        position: relative;
+        right: -15%;
+        margin-top: 3rem;
+    }
+    .page-first h2 {
+        font-size: 4rem;
+    }
+    .page-second h2 {
+        font-size: 4rem;
+    }
+    .btn-navbar {
+        margin-top: 0.5rem;
+    }
+    .page-three .feature .card-text-1 {
+        padding-left: 5%;
+        padding-right: 5%;
+		font-size: 2rem; 
+    }
+    .img-token {
+        border-radius: 1rem;
+    }
+    .second-text {
+        font-size: 2rem;
+    }
+    .page-second2 .soon {
+        margin-top: 50%;
+    }
+    .img-token2 {
+        border: 6px black solid;
+        border-radius: 2.5rem;
+        width: 75%;
+    }
+    .img-token3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-first .img-col {
+        margin-bottom: 20%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .page-first {
+        padding-top: 12%;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width: 481px) {
+    .page-first-btn2 {
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.5px) {
+    .page-first-btn2 {
+        margin-top: 3%;
+    }
+}
